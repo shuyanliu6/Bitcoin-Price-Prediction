@@ -6,7 +6,7 @@ This project aims to predict Bitcoin prices using various statistical and machin
 ## Models
 - **LSTM with PyTorch**: Implemented in `lstm_model.py`, this model uses deep learning to predict future Bitcoin prices based on sequences of past data.
 - **SARIMA**: Implemented in `sarima_model.py`, this statistical model addresses both seasonal and non-seasonal components of Bitcoin price movements.
-- **ARIMA**: Found in `arima_model.py`, focuses on the non-seasonal patterns in Bitcoin price data.
+- **ARIMA**: Found in `sarima_model.py`, focuses on the non-seasonal patterns in Bitcoin price data.
 
 ## Results
 Each model's performance is evaluated and compared based on RMSE metrics. Results are detailed in `results.md` with accompanying plots in the `plots/` directory.
